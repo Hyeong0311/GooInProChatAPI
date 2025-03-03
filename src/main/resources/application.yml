@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: GooInProChatAPI
+
+  data:
+    mongodb:
+      uri: mongodb://gooinprochatdbuser:gooinprochatdbuser@localhost:27017/gooinprochatdb?authSource=gooinprochatdb
+
+  devtools:
+    livereload:
+      enabled: true
+
+  freemarker:
+    cache: false
