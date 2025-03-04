@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/part/api/v1/chat")
+@RequestMapping("/chat/api/v1/chat")
 @RequiredArgsConstructor
 @Log4j2
 public class ChatMessageController {
