@@ -22,4 +22,4 @@ services:
     environment:
       SPRING_DATA_MONGODB_URI: "mongodb://gooinprochatdbuser:gooinprochatdbuser@gooinprochatdb:27017/gooinprochatdb?authSource=gooinprochatdb"
     ports:
-      - "8080:8080"
+      - "8088:8080"
